@@ -28,6 +28,12 @@
      "matches": ["https://www.wikipedia.org/*"],
      "css": ["css/wikipedia.css"],
      "run_at":"document_start"
+   },
+
+   {
+     "matches": ["https://archive.org/*"],
+     "css": ["css/archive_org.css"],
+     "run_at":"document_start"
    }
  ]
 }
