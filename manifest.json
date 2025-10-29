@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Monstera",
+  "version": "0.1.0",
+  "description": "Monstera hides the stuff that MiniGuinea can't block.",
+
+  "icons": {
+   "16": "16.png",
+   "32": "32.png",
+   "48": "48.png",
+   "128": "128.png"
+ },
+
+ "content_scripts": [
+   {
+     "matches": ["https://www.reddit.com/*"],
+     "css": ["css/reddit.css"],
+     "run_at":"document_start"
+   },
+
+   {
+     "matches": ["https://scratch.mit.edu/*"],
+     "css": ["css/scratch.css"],
+     "run_at":"document_start"
+   },
+
+   {
+     "matches": ["https://www.wikipedia.org/*"],
+     "css": ["css/wikipedia.css"],
+     "run_at":"document_start"
+   },
+
+   {
+     "matches": ["https://*.archive.org/*"],
+     "css": ["css/archive_org.css"],
+     "run_at":"document_start"
+   }
+ ]
+}

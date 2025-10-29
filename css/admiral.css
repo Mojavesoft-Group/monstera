@@ -1,0 +1,5 @@
+/* Unused; see admiral.js. */
+
+[style="display: initial; visibility: initial; padding-right: 20px;"]{display: none !important} /* Hide the popup while the JS takes care of pressing the ignore button for the user. */
+
+body:has([style="display: initial; visibility: initial; padding-right: 20px;"]){overflow: auto !important;}
