@@ -1,2 +1,2 @@
 shreddit-ad-post, shreddit-comments-page-ad {display:none !important}
-hr.border-neutral-border-weak.my-sm:has(+ shreddit-comments-page-ad, + shreddit-comment-tree-stats) {display: none;} 
+hr.border-neutral-border-weak.my-sm:has(+ shreddit-comments-page-ad, + shreddit-comment-tree-stats) {display: none;}
