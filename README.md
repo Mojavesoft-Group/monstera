@@ -8,4 +8,4 @@ It's designed to avoid conflicts with MiniGuinea, so the two can be used togethe
 
 Monstera is still in extremely early development. Expect large changes.
 
-I tried to make my commits signed, but it wouldn't work right.
+I tried to make my commits signed, but it wouldn't work right. To prove that this message was not faked, look at commit 171ac8d and notice the verified status.
