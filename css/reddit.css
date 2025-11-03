@@ -1,2 +1,3 @@
-shreddit-ad-post, shreddit-comments-page-ad, shreddit-sidebar-ad {display:none !important}
-hr.border-neutral-border-weak.my-sm:has(+ shreddit-comments-page-ad) {display: none;}
+shreddit-ad-post, shreddit-comments-page-ad, shreddit-sidebar-ad, ad-event-tracker {display:none !important}
+hr.border-neutral-border-weak.my-sm:has(+ shreddit-comments-page-ad){display: none;}
+reddit-pdp-right-rail-post:has(ad-event-tracker) + .border-neutral-border-weak{display: none;}
